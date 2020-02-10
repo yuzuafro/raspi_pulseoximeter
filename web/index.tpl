@@ -29,10 +29,9 @@
     $('#measure').bind('click', submit_form);
   });
 </script>
-<h1 class="text-center text-primary">SpO<sub>2</sub> & 心拍数</h1>
-  <hr>
-  <h2 class="text-center text-info">SpO<sub>2</sub> : <span id="result_spo2"></span></br></p>
-  <h2 class="text-center text-info">心拍数 : <span id="result_heartrate"></span></p>
-  <p class="text-center"><button type="button" input id="measure" class="btn btn-primary btn-lg btn-block">測定</button></p>
+<hr>
+<h2 class="text-center text-info">SpO<sub>2</sub> : <span id="result_spo2"></span></br></p>
+<h2 class="text-center text-info">心拍数 : <span id="result_heartrate"></span></p>
+<p class="text-center"><button type="button" input id="measure" class="btn btn-primary btn-lg btn-block">測定</button></p>
 </body>
 </html>

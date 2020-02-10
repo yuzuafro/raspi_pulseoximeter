@@ -1,4 +1,3 @@
-# -*-coding:utf-8-*-
 import re
 from statistics import median
 
@@ -30,7 +29,7 @@ class MAXREFDES117():
                 spo2.append(l[2])
 
         # 中央値を取り出す
-        hr = median(hr)
+        hr = round(median(hr))
         spo2 = round(median(spo2))
         return hr, spo2
 

@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding:utf-8 -*-
-
 import sys, os, json
 from bottle import route, run, debug, template, request, static_file, HTTPResponse
 
